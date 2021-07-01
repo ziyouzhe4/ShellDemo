@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114E350D9636C0A16A82302250418BA1 /* BSBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 382FF8993E8243E8C891A0265AE21BB9 /* BSBacktraceLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D52E23C579B2401FBA226BBBE21D32F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 892AF4341D509232DDD0AEF159222975 /* ReplaceMe.m */; };
+		2C629FFF31C6DBD42206558E07D472CD /* Pods-ShellDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B6700E9886D992A8DE0D56407EAABB /* Pods-ShellDemo-dummy.m */; };
+		2EE4710CBCF80A0D211B9E67AFA245DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69B12603948B03BA80F0D299EBD87CA /* Foundation.framework */; };
+		4CC8837C53CF94CF51F3D8AF1AFF585B /* DDLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F4AC2DC1AA4BA926651C80FCE5D03A /* DDLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E7FBC140F04DCCAFF1714B29BFA126B /* Pods-ShellDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A60A2F27C7B2C3EA34FE8DEB3FE629CE /* Pods-ShellDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FCC2E27F4A20E2632BEA764910A784F /* DDLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A2B3B43E631B3904D023FFE295D0F8 /* DDLogin-dummy.m */; };
+		660D4CBCA3F5CE5313E3992BBB520A57 /* DDNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E477C8B05FB1E945730037343BE30E9 /* DDNetworking-dummy.m */; };
+		9676660C0EDB9388C4181110C821FAB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69B12603948B03BA80F0D299EBD87CA /* Foundation.framework */; };
+		B02656D34739C98707C95C2F85884B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69B12603948B03BA80F0D299EBD87CA /* Foundation.framework */; };
+		B6FCC8D605B598F0EB11703DA8D665B4 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F516BDB29690BADA6DB7992A8D60A /* BSBacktraceLogger.m */; };
+		FF156AC47F2D897B1B9FEC68888F7FC0 /* DDNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C666E79D80303A0551F88DAA9402BF68 /* DDNetworking.framework */; };
+		FF6C5FB982800821D592BBB293DB78F8 /* DDNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ACCF76870C731660AD326B6816C7FA5 /* DDNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48598BF10C5CC7752E5EFB761A2A4EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360885D3545BF99E8EFCE595C0176C13;
+			remoteInfo = DDNetworking;
+		};
+		608B7AB03BA9EAD1407433E9C8246984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360885D3545BF99E8EFCE595C0176C13;
+			remoteInfo = DDNetworking;
+		};
+		CFBAAF139E466A2CBEF8B4337E7162AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7206E84B80E934D38D9D35C32EB9549F;
+			remoteInfo = DDLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01779DB5C902BA3C1E03358B2C805655 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		01E5FCD5704EA5225890CC04F90FD926 /* Pods-ShellDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShellDemo-frameworks.sh"; sourceTree = "<group>"; };
+		072146BB7968AAEA1F69F61EA015B55F /* DDNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDNetworking.xcconfig; sourceTree = "<group>"; };
+		07A991725FCC8940D7E1DAECF411B008 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0855C2D9F2859F8E910427DDA1343D0D /* Pods-ShellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShellDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		08774B3D1CD447568850974290617FE0 /* DDNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDNetworking.framework; path = DDNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1853FD61116776629D35A58F869F807D /* DDLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E477C8B05FB1E945730037343BE30E9 /* DDNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDNetworking-dummy.m"; sourceTree = "<group>"; };
+		1E83F2549E67C6FA5182CBC0254E724C /* DDNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F9F516BDB29690BADA6DB7992A8D60A /* BSBacktraceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSBacktraceLogger.m; path = DDNetworking/Classes/BSBacktraceLogger.m; sourceTree = "<group>"; };
+		382FF8993E8243E8C891A0265AE21BB9 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSBacktraceLogger.h; path = DDNetworking/Classes/BSBacktraceLogger.h; sourceTree = "<group>"; };
+		3D60948F7320997665DB71D8C711C4E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		424664D70ECE9C094ED22ACB7BD21B70 /* DDLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDLogin.xcconfig; sourceTree = "<group>"; };
+		6D93A100A293BB44A9577179996AC4AB /* DDNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDNetworking.modulemap; sourceTree = "<group>"; };
+		73F4AC2DC1AA4BA926651C80FCE5D03A /* DDLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDLogin-umbrella.h"; sourceTree = "<group>"; };
+		745B68783A83F66EBB9868C0F42135DB /* DDLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDLogin-Info.plist"; sourceTree = "<group>"; };
+		7CBCB57F94C4D0D7D39D1ACBEC2B908B /* Pods-ShellDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShellDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		892AF4341D509232DDD0AEF159222975 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DDLogin/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		8ACCF76870C731660AD326B6816C7FA5 /* DDNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDNetworking-umbrella.h"; sourceTree = "<group>"; };
+		8B51DDA5B0E641C3CC2760E6D37662C9 /* DDLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDLogin.framework; path = DDLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		916ADC8E90D7910B31245DBCCE4FCFD3 /* Pods-ShellDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShellDemo-Info.plist"; sourceTree = "<group>"; };
+		91A2099FFC1CA4D966E6110255EBF82D /* Pods_ShellDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShellDemo.framework; path = "Pods-ShellDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		970F972385A633FEACD827D7C954BFE2 /* Pods-ShellDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShellDemo.release.xcconfig"; sourceTree = "<group>"; };
+		97A2B3B43E631B3904D023FFE295D0F8 /* DDLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDLogin-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A60A2F27C7B2C3EA34FE8DEB3FE629CE /* Pods-ShellDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShellDemo-umbrella.h"; sourceTree = "<group>"; };
+		AEBF3455938E06625D066EF4D6B7A944 /* Pods-ShellDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShellDemo.modulemap"; sourceTree = "<group>"; };
+		BB14B53723ED2EF53757935CC45DCA34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BB654389FC5004865F7F2EF7505D22F3 /* DDNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDNetworking-Info.plist"; sourceTree = "<group>"; };
+		C666E79D80303A0551F88DAA9402BF68 /* DDNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B6700E9886D992A8DE0D56407EAABB /* Pods-ShellDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShellDemo-dummy.m"; sourceTree = "<group>"; };
+		D67E922933DEFB51F013E55AEFDC316A /* DDLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDLogin.modulemap; sourceTree = "<group>"; };
+		D681AA7BDB7F0C212A40F64499812EA1 /* Pods-ShellDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShellDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBF74109CEB671CA5FDB93463552CE3B /* DDLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDLogin-prefix.pch"; sourceTree = "<group>"; };
+		F69B12603948B03BA80F0D299EBD87CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FBBE228314F326068ADE83E20BBD3000 /* DDNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDNetworking-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1292B5F163E15B49EAC6784823C21D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9676660C0EDB9388C4181110C821FAB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		331BEE41995E4C42ECD46009C7EFBEE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B02656D34739C98707C95C2F85884B42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AA317C19411153BCDF413660DCB5E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF156AC47F2D897B1B9FEC68888F7FC0 /* DDNetworking.framework in Frameworks */,
+				2EE4710CBCF80A0D211B9E67AFA245DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28D195D739848CFCDA8F0CB464FBE4F3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1853FD61116776629D35A58F869F807D /* DDLogin.podspec */,
+				BB14B53723ED2EF53757935CC45DCA34 /* LICENSE */,
+				07A991725FCC8940D7E1DAECF411B008 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		50C43685D3AD3F5CD49BE657B075D98C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B51DDA5B0E641C3CC2760E6D37662C9 /* DDLogin.framework */,
+				08774B3D1CD447568850974290617FE0 /* DDNetworking.framework */,
+				91A2099FFC1CA4D966E6110255EBF82D /* Pods_ShellDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F060173E9E4B82ED8A4986147FEFF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C666E79D80303A0551F88DAA9402BF68 /* DDNetworking.framework */,
+				7FE4D01A85B48D509AF93D4983297B90 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		699F13FB43448144432D13EA745B25CB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF87FD92BEA7F511D20816FA6CE0EEF8 /* Pods-ShellDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7FE4D01A85B48D509AF93D4983297B90 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F69B12603948B03BA80F0D299EBD87CA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		844CA4752EAE4D368A6D3E1BF3348BC9 /* DDNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				382FF8993E8243E8C891A0265AE21BB9 /* BSBacktraceLogger.h */,
+				2F9F516BDB29690BADA6DB7992A8D60A /* BSBacktraceLogger.m */,
+				8536FF697FDA3E1F3267480B4EFFFAE9 /* Pod */,
+				B8F6F4F963EE8CC0E47C578FCBF56BD9 /* Support Files */,
+			);
+			name = DDNetworking;
+			path = ../Lib/DDNetworking;
+			sourceTree = "<group>";
+		};
+		8536FF697FDA3E1F3267480B4EFFFAE9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1E83F2549E67C6FA5182CBC0254E724C /* DDNetworking.podspec */,
+				3D60948F7320997665DB71D8C711C4E5 /* LICENSE */,
+				01779DB5C902BA3C1E03358B2C805655 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B6CB4CC1A39D2F0114C8C63BDD42C631 /* DDLogin */ = {
+			isa = PBXGroup;
+			children = (
+				892AF4341D509232DDD0AEF159222975 /* ReplaceMe.m */,
+				28D195D739848CFCDA8F0CB464FBE4F3 /* Pod */,
+				E4607420D69C635C43D46A199DEAADC1 /* Support Files */,
+			);
+			name = DDLogin;
+			path = ../Lib/DDLogin;
+			sourceTree = "<group>";
+		};
+		B8F6F4F963EE8CC0E47C578FCBF56BD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D93A100A293BB44A9577179996AC4AB /* DDNetworking.modulemap */,
+				072146BB7968AAEA1F69F61EA015B55F /* DDNetworking.xcconfig */,
+				1E477C8B05FB1E945730037343BE30E9 /* DDNetworking-dummy.m */,
+				BB654389FC5004865F7F2EF7505D22F3 /* DDNetworking-Info.plist */,
+				FBBE228314F326068ADE83E20BBD3000 /* DDNetworking-prefix.pch */,
+				8ACCF76870C731660AD326B6816C7FA5 /* DDNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/DDNetworking";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FB26637032364992DC877DB759D1048F /* Development Pods */,
+				66F060173E9E4B82ED8A4986147FEFF3 /* Frameworks */,
+				50C43685D3AD3F5CD49BE657B075D98C /* Products */,
+				699F13FB43448144432D13EA745B25CB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E4607420D69C635C43D46A199DEAADC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D67E922933DEFB51F013E55AEFDC316A /* DDLogin.modulemap */,
+				424664D70ECE9C094ED22ACB7BD21B70 /* DDLogin.xcconfig */,
+				97A2B3B43E631B3904D023FFE295D0F8 /* DDLogin-dummy.m */,
+				745B68783A83F66EBB9868C0F42135DB /* DDLogin-Info.plist */,
+				DBF74109CEB671CA5FDB93463552CE3B /* DDLogin-prefix.pch */,
+				73F4AC2DC1AA4BA926651C80FCE5D03A /* DDLogin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/DDLogin";
+			sourceTree = "<group>";
+		};
+		FB26637032364992DC877DB759D1048F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6CB4CC1A39D2F0114C8C63BDD42C631 /* DDLogin */,
+				844CA4752EAE4D368A6D3E1BF3348BC9 /* DDNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FF87FD92BEA7F511D20816FA6CE0EEF8 /* Pods-ShellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AEBF3455938E06625D066EF4D6B7A944 /* Pods-ShellDemo.modulemap */,
+				7CBCB57F94C4D0D7D39D1ACBEC2B908B /* Pods-ShellDemo-acknowledgements.markdown */,
+				D681AA7BDB7F0C212A40F64499812EA1 /* Pods-ShellDemo-acknowledgements.plist */,
+				D5B6700E9886D992A8DE0D56407EAABB /* Pods-ShellDemo-dummy.m */,
+				01E5FCD5704EA5225890CC04F90FD926 /* Pods-ShellDemo-frameworks.sh */,
+				916ADC8E90D7910B31245DBCCE4FCFD3 /* Pods-ShellDemo-Info.plist */,
+				A60A2F27C7B2C3EA34FE8DEB3FE629CE /* Pods-ShellDemo-umbrella.h */,
+				0855C2D9F2859F8E910427DDA1343D0D /* Pods-ShellDemo.debug.xcconfig */,
+				970F972385A633FEACD827D7C954BFE2 /* Pods-ShellDemo.release.xcconfig */,
+			);
+			name = "Pods-ShellDemo";
+			path = "Target Support Files/Pods-ShellDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14DAB9EC9562180B934F08D6AD3A056D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC8837C53CF94CF51F3D8AF1AFF585B /* DDLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1961E807FF90395172A41927D66DAFEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7FBC140F04DCCAFF1714B29BFA126B /* Pods-ShellDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2ABDA53E639AFE95CFE52815D2C793 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114E350D9636C0A16A82302250418BA1 /* BSBacktraceLogger.h in Headers */,
+				FF6C5FB982800821D592BBB293DB78F8 /* DDNetworking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		360885D3545BF99E8EFCE595C0176C13 /* DDNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D34EEC28689938631D6208FF3206349 /* Build configuration list for PBXNativeTarget "DDNetworking" */;
+			buildPhases = (
+				EE2ABDA53E639AFE95CFE52815D2C793 /* Headers */,
+				FF9BC3CF3F4F230A4C24CD1BF58D1504 /* Sources */,
+				331BEE41995E4C42ECD46009C7EFBEE7 /* Frameworks */,
+				5629F800993836B621F4FCFC5C877813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDNetworking;
+			productName = DDNetworking;
+			productReference = 08774B3D1CD447568850974290617FE0 /* DDNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7206E84B80E934D38D9D35C32EB9549F /* DDLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE903D1310E079791769AD95BD49CB9A /* Build configuration list for PBXNativeTarget "DDLogin" */;
+			buildPhases = (
+				14DAB9EC9562180B934F08D6AD3A056D /* Headers */,
+				D42B89F8C350A4F090066D94BDD85EC7 /* Sources */,
+				6AA317C19411153BCDF413660DCB5E88 /* Frameworks */,
+				EDF220893F6C47835737572A0932F0CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EA6BCA3C22E128A5F9B572DE1C3C35 /* PBXTargetDependency */,
+			);
+			name = DDLogin;
+			productName = DDLogin;
+			productReference = 8B51DDA5B0E641C3CC2760E6D37662C9 /* DDLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BE31CBE32FF3CDDC2BF39FF80B092DA /* Pods-ShellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203847A7DCF5A1CC4062D30C63DC250F /* Build configuration list for PBXNativeTarget "Pods-ShellDemo" */;
+			buildPhases = (
+				1961E807FF90395172A41927D66DAFEA /* Headers */,
+				00794F9852BAAFFFE131A42F09A4F77E /* Sources */,
+				1292B5F163E15B49EAC6784823C21D24 /* Frameworks */,
+				209265D551C9FDF585E3DD8F8FC9DDC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E5600F8FFF137D2DD2B08AC5603B940 /* PBXTargetDependency */,
+				EE1822F926BF3B280395659451BA1E3D /* PBXTargetDependency */,
+			);
+			name = "Pods-ShellDemo";
+			productName = "Pods-ShellDemo";
+			productReference = 91A2099FFC1CA4D966E6110255EBF82D /* Pods_ShellDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 50C43685D3AD3F5CD49BE657B075D98C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7206E84B80E934D38D9D35C32EB9549F /* DDLogin */,
+				360885D3545BF99E8EFCE595C0176C13 /* DDNetworking */,
+				7BE31CBE32FF3CDDC2BF39FF80B092DA /* Pods-ShellDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209265D551C9FDF585E3DD8F8FC9DDC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5629F800993836B621F4FCFC5C877813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF220893F6C47835737572A0932F0CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00794F9852BAAFFFE131A42F09A4F77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C629FFF31C6DBD42206558E07D472CD /* Pods-ShellDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42B89F8C350A4F090066D94BDD85EC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCC2E27F4A20E2632BEA764910A784F /* DDLogin-dummy.m in Sources */,
+				1D52E23C579B2401FBA226BBBE21D32F /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9BC3CF3F4F230A4C24CD1BF58D1504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FCC8D605B598F0EB11703DA8D665B4 /* BSBacktraceLogger.m in Sources */,
+				660D4CBCA3F5CE5313E3992BBB520A57 /* DDNetworking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E5600F8FFF137D2DD2B08AC5603B940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDLogin;
+			target = 7206E84B80E934D38D9D35C32EB9549F /* DDLogin */;
+			targetProxy = CFBAAF139E466A2CBEF8B4337E7162AD /* PBXContainerItemProxy */;
+		};
+		60EA6BCA3C22E128A5F9B572DE1C3C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDNetworking;
+			target = 360885D3545BF99E8EFCE595C0176C13 /* DDNetworking */;
+			targetProxy = 608B7AB03BA9EAD1407433E9C8246984 /* PBXContainerItemProxy */;
+		};
+		EE1822F926BF3B280395659451BA1E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DDNetworking;
+			target = 360885D3545BF99E8EFCE595C0176C13 /* DDNetworking */;
+			targetProxy = 48598BF10C5CC7752E5EFB761A2A4EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11D2BB253B78334372027D30CB611C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 970F972385A633FEACD827D7C954BFE2 /* Pods-ShellDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShellDemo/Pods-ShellDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShellDemo/Pods-ShellDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26FB8B20EBDB8652C452DE0BB392EC5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		28CCFE233BD59EB16BC909E9240EF1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424664D70ECE9C094ED22ACB7BD21B70 /* DDLogin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDLogin/DDLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDLogin/DDLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDLogin/DDLogin.modulemap";
+				PRODUCT_MODULE_NAME = DDLogin;
+				PRODUCT_NAME = DDLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D0CD643C23D154303F8282F7399EA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072146BB7968AAEA1F69F61EA015B55F /* DDNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDNetworking/DDNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDNetworking/DDNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDNetworking/DDNetworking.modulemap";
+				PRODUCT_MODULE_NAME = DDNetworking;
+				PRODUCT_NAME = DDNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3B97134147B359ACC94E1BC139242BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BCCB2201ECD95BF74AB53746E6BA12D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0855C2D9F2859F8E910427DDA1343D0D /* Pods-ShellDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShellDemo/Pods-ShellDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShellDemo/Pods-ShellDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1ED0E73A205C81636687CC4B220EC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424664D70ECE9C094ED22ACB7BD21B70 /* DDLogin.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDLogin/DDLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDLogin/DDLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDLogin/DDLogin.modulemap";
+				PRODUCT_MODULE_NAME = DDLogin;
+				PRODUCT_NAME = DDLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F093E5A1BDA8D35EFB21BC0795E91AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072146BB7968AAEA1F69F61EA015B55F /* DDNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDNetworking/DDNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDNetworking/DDNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDNetworking/DDNetworking.modulemap";
+				PRODUCT_MODULE_NAME = DDNetworking;
+				PRODUCT_NAME = DDNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203847A7DCF5A1CC4062D30C63DC250F /* Build configuration list for PBXNativeTarget "Pods-ShellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCB2201ECD95BF74AB53746E6BA12D0 /* Debug */,
+				11D2BB253B78334372027D30CB611C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FB8B20EBDB8652C452DE0BB392EC5A /* Debug */,
+				A3B97134147B359ACC94E1BC139242BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D34EEC28689938631D6208FF3206349 /* Build configuration list for PBXNativeTarget "DDNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F093E5A1BDA8D35EFB21BC0795E91AA8 /* Debug */,
+				9D0CD643C23D154303F8282F7399EA12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE903D1310E079791769AD95BD49CB9A /* Build configuration list for PBXNativeTarget "DDLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED0E73A205C81636687CC4B220EC52 /* Debug */,
+				28CCFE233BD59EB16BC909E9240EF1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

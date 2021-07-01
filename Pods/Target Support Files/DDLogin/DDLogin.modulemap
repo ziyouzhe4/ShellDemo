@@ -1,0 +1,6 @@
+framework module DDLogin {
+  umbrella header "DDLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

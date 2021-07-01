@@ -1,0 +1,22 @@
+PODS:
+  - DDLogin (0.1.0):
+    - DDNetworking
+  - DDNetworking (0.1.0)
+
+DEPENDENCIES:
+  - DDLogin (from `Lib/DDLogin`)
+  - DDNetworking (from `Lib/DDNetworking`)
+
+EXTERNAL SOURCES:
+  DDLogin:
+    :path: Lib/DDLogin
+  DDNetworking:
+    :path: Lib/DDNetworking
+
+SPEC CHECKSUMS:
+  DDLogin: 5cfaf931de19e637b7e8e8ebc9277a995c845bbb
+  DDNetworking: d25657bbe9ae511d3c2720c1a3239f457d63f9ba
+
+PODFILE CHECKSUM: 9f4367c2f8ee67e36c66b09039613781544739cd
+
+COCOAPODS: 1.8.4
